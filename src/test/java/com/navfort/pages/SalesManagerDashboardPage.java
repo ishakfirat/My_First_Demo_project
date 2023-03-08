@@ -14,6 +14,13 @@ public class SalesManagerDashboardPage {
     @FindBy(xpath = "//h1[@class='oro-subtitle']")
     public WebElement dashboard;
 
+    @FindBy(xpath = "//div[@id='breadcrumb']/ul")
+    public WebElement breadCrump;
+
+    @FindBy(xpath = "//div[@id='main-menu']/ul")
+    public WebElement pageHeading;
+
+
 
 
 

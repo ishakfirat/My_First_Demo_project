@@ -24,6 +24,10 @@ public class SalesManagerLoginPage {
     public WebElement loginBtn;
 
 
+    @FindBy(xpath = "//h2[@class='title']")
+    public WebElement loginPageHeader;
+
+
 
 
 

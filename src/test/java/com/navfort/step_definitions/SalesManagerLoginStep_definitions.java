@@ -42,20 +42,15 @@ public class SalesManagerLoginStep_definitions {
 
 
     }
+    @Then("salesManager should not be able to login")
+    public void sales_manager_should_not_be_able_to_login() {
+        String expectedHeader="Login";
+        String actualHeader= salesManagerLoginPage.loginPageHeader.getText();
+
+        Assert.assertEquals("Negative login scenario Failed!!!",expectedHeader,actualHeader);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+    }
 
 
 

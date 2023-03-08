@@ -4,6 +4,7 @@ package com.navfort.step_definitions;
 In the class we will be able to pass pre- & post- conditions to each scenario each step
  */
 
+import com.navfort.utilities.BrowserUtils;
 import com.navfort.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
@@ -36,7 +37,7 @@ public class Hooks {
         }
 
 
-        //BrowserUtils.sleep(3);
+        BrowserUtils.sleep(2);
         Driver.closeDriver();
 
        // System.out.println("====Closing browser after using cucumber @After");
